@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,6 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Engine\Textures\lroc_color_poles_2k.tif" />
+    <None Include="wwwroot\Engine\Textures\Moon_Albedo_1024.jpg" />
+    <None Include="wwwroot\Engine\Textures\Moon_Displacement_1024.jpg" />
     <None Include="wwwroot\js\three.js" />
   </ItemGroup>
 

@@ -658,11 +658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\SpaceSeismologists\\SpaceSeismologists\\SpaceSeismologists.csproj",
+      "projectUniqueName": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\Nueva carpeta\\space_seismologists\\SpaceSeismologists\\SpaceSeismologists\\SpaceSeismologists.csproj",
       "projectName": "SpaceSeismologists",
-      "projectPath": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\SpaceSeismologists\\SpaceSeismologists\\SpaceSeismologists.csproj",
+      "projectPath": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\Nueva carpeta\\space_seismologists\\SpaceSeismologists\\SpaceSeismologists\\SpaceSeismologists.csproj",
       "packagesPath": "C:\\Users\\lmml_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\SpaceSeismologists\\SpaceSeismologists\\obj\\",
+      "outputPath": "C:\\Users\\lmml_\\Desktop\\Hackaton_NASA\\Hackaton\\Nueva carpeta\\space_seismologists\\SpaceSeismologists\\SpaceSeismologists\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lmml_\\AppData\\Roaming\\NuGet\\NuGet.Config",
