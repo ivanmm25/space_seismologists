@@ -105,3 +105,14 @@ body {
     position:absolute;
     top: 0px;
 }
+
+.visualizationTitle {
+    color: white;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}

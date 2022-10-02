@@ -13,6 +13,7 @@ namespace SpaceSeismologists
     {
         public static void Main(string[] args)
         {
+            System.Globalization.CultureInfo CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
             CreateHostBuilder(args).Build().Run();
         }
 
