@@ -104,15 +104,30 @@ body {
 .desplegable1{
     position:absolute;
     top: 0px;
+    display:none;
 }
 
 .visualizationTitle {
     color: white;
     position: absolute;
-    top: 10px;
+    top: 20px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
+}
+
+.escala {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    width: 8%;
+}
+
+.escalaTitle {
+    color: white;
+    position: absolute;
+    top: 90px;
+    right: 80px;
 }

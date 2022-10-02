@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.Data.Analysis": {
+              "target": "Package",
+              "version": "[0.19.1, )"
             }
           },
           "imports": [

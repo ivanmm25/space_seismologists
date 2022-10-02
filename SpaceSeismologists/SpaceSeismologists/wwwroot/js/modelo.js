@@ -93,11 +93,12 @@ $(document).ready(() => {
             $(e.rows).each((i, j) => {
                 //console.log("aaa " + j[34]);
                 var sphereMeshAux = new THREE.SphereGeometry(0.1, 32, 16)
-                var colorHexAux = (new THREE.Color("rgb(" + j[34] + "," + j[35] + "," + j[36] + ")"))
+                //var colorHexAux = (new THREE.Color("rgb(" + j[34] + "," + j[35] + "," + j[36] + ")"))
+                var colorHexAux = (new THREE.Color(j[37]))
                 var materialAux = new THREE.MeshBasicMaterial({ color: colorHexAux });
                 var sphereAux = new THREE.Mesh(sphereMeshAux, materialAux);
                 scene.add(sphereAux);
-                sphereAux.position.set(j[39], j[38], j[37]);
+                sphereAux.position.set(j[40], j[39], j[38]);
 
                 //fecha -> objeto
                 global.lognane.set(new Date(j[29] + "/" + j[30] + "/" + j[31]),sphereAux)

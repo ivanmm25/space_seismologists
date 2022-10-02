@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SpaceSeismologists.AppCode;
 using SpaceSeismologists.Models;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,12 @@ namespace SpaceSeismologists.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [HttpGet]
+        public JsonResult DataFrame()
+        {
+            return Json(ReadCSV.GetDataFrame());
         }
     }
 }
