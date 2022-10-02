@@ -35,3 +35,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+SpaceSeismologists/SpaceSeismologists/SpaceSeismologists.csproj
+SpaceSeismologists/SpaceSeismologists/Properties/PublishProfiles/SpaceSeismologists20221002150941 - Web Deploy.pubxml
+SpaceSeismologists/SpaceSeismologists/Properties/ServiceDependencies/SpaceSeismologists20221002150941 - Web Deploy/profile.arm.json
