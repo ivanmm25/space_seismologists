@@ -28,7 +28,7 @@ scene.add(light);
 
 //Material Luna
 const material = new THREE.MeshStandardMaterial({ map: textureAlbedo, displacementMap: textureDisplacement });
-material.displacementScale = 0.01;
+material.displacementScale = 0.02;
 
 //Luna
 const sphere = new THREE.Mesh(geometry, material);
@@ -38,6 +38,21 @@ camera.position.z = 20;
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement);
 controls.update();
+
+//Prueba cubo
+const cuboGeometry = new THREE.SphereGeometry(0.1, 32, 16);
+const material2 = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(cuboGeometry, material2);
+
+//Skybox
+
+
+//function latitudLongitudToVector3() {
+
+//}
+
+scene.add(cube);
+cube.position.set(5.9272, -2.9904, 7.4783)
 
 
 //CONTROLES MANUALES

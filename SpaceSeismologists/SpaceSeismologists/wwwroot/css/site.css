@@ -69,3 +69,39 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+#slider-container {
+    width: 80%;
+    top: -150px;
+    display: inline-block;
+    position: relative;
+}
+
+#label1 {
+    top: -30px;
+    display: inline-block;
+    width: 80%;
+    position: relative;
+}
+
+#label2 {
+    top: -90px;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+}
+
+.label p{
+    color: white;
+    text-align: left;
+}
+
+.contenedor{
+    position:relative;
+}
+
+.desplegable1{
+    position:absolute;
+    top: 0px;
+}

@@ -2,10 +2,32 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="text-center contenedor">
     @*<h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
     <div class="my-lg-n2">
-        <canvas id="MoonQuakeMapCanvas" @*style="width:100%*@;"></canvas>
-    </div> 
+        <canvas id="MoonQuakeMapCanvas" @*style="width:100%*@></canvas>
+    </div>
+    <div id="label1" class="label">
+        <p>Please slide !</p>
+    </div>
+    <div id="label2" class="label">
+        <p>Please slide !</p>
+    </div>
+    <div id="slider-container">
+        <div id="slider-range"></div>
+    </div>
+    <div class="dropdown desplegable1">
+        <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">
+            Dropdown Example
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+        </ul>
+    </div>
 </div>
