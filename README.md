@@ -1,6 +1,6 @@
 # space_seismologists
 
-Solving the challenge "Make a Moonquake map" in the [Space Apps Challenge](https://www.spaceappschallenge.org/) by NASA.
+Solving the challenge "Make a Moonquake map" in the [Space Apps Challenge](https://www.spaceappschallenge.org/) by NASA. We were [Local Winners](https://2022.spaceappschallenge.org/locations/salamanca/teams) of the local phase!
 
 * **Data**: data from NASA at [link](https://pds-geosciences.wustl.edu/missions/apollo/seismic_event_catalog.htm).
 
